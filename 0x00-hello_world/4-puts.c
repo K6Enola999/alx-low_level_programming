@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-/*this code will print a sentence*/
+/**
+ * main - this code will print a sentence
+ * Return 0
+ */
 int main(void)
 {
-	puts(""Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
