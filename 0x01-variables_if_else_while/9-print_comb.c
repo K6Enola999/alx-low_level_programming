@@ -2,6 +2,7 @@
 
 /**
  * main - print all possible combination of singles-digit numbers
+ * Return:(0)
  */
 int main(void)
 {
