@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * function - program will print 10 times small letters
+ * print_alphabet_x10 - function will print 10 times small letters
  * Return: void
  */
 void print_alphabet_x10(void)
