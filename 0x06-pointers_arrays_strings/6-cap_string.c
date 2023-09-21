@@ -8,7 +8,7 @@
 char *cap_string(char *)
 {
 	int i, j, val;
-	char sep[] = "\n\t,;.!?\"(){}";
+	char sep[] = " \n\t,;.!?\"(){}";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -19,11 +19,12 @@ char *cap_string(char *)
 			if (str[i] == sep[j])
 				val = 1;
 		}
+		
 		if (val)
 		{
 			if (str[i] >= 97 && str[i] <= 122)
 			{
-				str[i] = sre[i] - 32;
+				str[i] = str[i] - 32;
 				val = 0;
 			}
 			else if (str[i] >= 65 && str[i] <= 90)
