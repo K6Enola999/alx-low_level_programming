@@ -5,7 +5,7 @@
  * @str: char pointer
  * Return: str
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int i, j, val;
 	char sep[] = " \n\t,;.!?\"(){}";
