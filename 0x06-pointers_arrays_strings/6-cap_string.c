@@ -7,7 +7,7 @@
  */
 char *cap_string(char *str)
 {
-	int i, j val;
+	int i, j, val;
 	char sep[] = " \n\t,;.!?\"(){}";
 
 	for (i = 0 ; str[i] != '\0' ; i++)
