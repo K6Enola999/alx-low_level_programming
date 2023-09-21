@@ -5,16 +5,16 @@
  * @str: char pointer
  * Return: str
  */
-char *cap_string(char *str)
+char *cap_string(char *)
 {
 	int i, j, val;
-	char sep[] = " \n\t,;.!?\"(){}";
+	char sep[] = "\n\t,;.!?\"(){}";
 
-	for (i = 0 ; str[i] != '\0' ; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[0] >= 97 && str[0] <= 122)
 			val = 1;
-		for (j = 0 ; sep[j] != '\0' ; j++)
+		for (j = 0; sep[j] != '\0'; j++)
 		{
 			if (str[i] == sep[j])
 				val = 1;
