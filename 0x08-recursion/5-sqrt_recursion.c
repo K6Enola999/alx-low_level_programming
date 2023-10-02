@@ -8,7 +8,7 @@
  */
 int _sqrt_rec(int x, int y)
 {
-	if ( y * y == x)
+	if (y * y == x)
 		return (y);
 	else if (y * y < x)
 		return (_sqrt_rec(x, y + 1));
