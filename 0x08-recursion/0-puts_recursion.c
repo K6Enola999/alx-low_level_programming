@@ -5,7 +5,7 @@
  * @s: char pointer
  * Return: void
  */
-void _puts_recusion(char *s)
+void _puts_recursion(char *s)
 {
 	int i;
 
@@ -16,4 +16,5 @@ void _puts_recusion(char *s)
 	}
 	_putchar(s[i]);
 	s++;
+	_puts_recursion(s);
 }
