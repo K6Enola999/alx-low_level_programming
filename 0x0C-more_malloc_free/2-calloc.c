@@ -8,7 +8,7 @@
  * @size: size of blocks to be allocated
  * Return: a pointer to the allocated memory or NULL
  */
-void *_calloc(unsigned in nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *ptr;
 	char *byte_ptr;
