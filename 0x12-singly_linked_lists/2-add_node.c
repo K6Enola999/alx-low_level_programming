@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nod - adds a new node at the beginning of a list_t list
+ * add_node - adds a new node at the beginning of a list_t list
  * @head: pointer to the head of a linked list
  * @str: string - malloc'ed string
  * Return: address of the new element, or NULL if failed
