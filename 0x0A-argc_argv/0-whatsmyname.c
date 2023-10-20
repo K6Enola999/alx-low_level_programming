@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maun - a program that prints its name
+ * main - a program that prints its name
  * @argc: arguments count
  * @argv: arguments vector
  * Return: 0
