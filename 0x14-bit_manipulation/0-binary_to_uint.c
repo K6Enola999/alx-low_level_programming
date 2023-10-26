@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 		}
 		else
 			return (0);
-		len --;
+		len--;
 		i++;
 	}
 	return (conv_num);
